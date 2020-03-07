@@ -1,0 +1,14 @@
+/* portfolio */
+/* @mixin myname(){}   // @include myname(); @function myFn(){}  // myFn(); */
+@media screen and (max-width: 1920px) { #wrap { width: 100%; height: 100%; background-color: #faf; }
+  #headBox { width: 500px; height: 100px; background-color: #fa2; }
+  #headBox .jini { width: 300px; height: 100px; background-color: #d0a; }
+  #headBox .jeje { width: 10px; height: 10px; background-color: #39a; } }
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) { #wrap { width: 100%; height: 100%; background-color: #fa0; }
+  #headBox { width: 500px; height: 100px; background-color: #fdd; }
+  #headBox .jini { width: 300px; height: 100px; background-color: #d0a; } }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) { #wrap { width: 100%; height: 100%; background-color: #faf; }
+  #headBox { width: 500px; height: 100px; background-color: #fa2; }
+  #headBox .jini { width: 300px; height: 100px; background-color: #d0a; } }
